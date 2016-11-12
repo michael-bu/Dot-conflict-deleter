@@ -1,0 +1,7 @@
+0.1
+First version
+-Directory selection works
+-Clear log box works
+-Save log box works
+-Delete .conflict files works
+-Checks for existance of acre.dll before deleting

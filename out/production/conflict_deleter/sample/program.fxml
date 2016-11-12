@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:controller="sample.Controller"
+      maxHeight="-Infinity"
+      maxWidth="-Infinity"
+      minHeight="270"
+      minWidth="600"
+      prefHeight="270.0"
+      prefWidth="600.0" 
+      xmlns="http://javafx.com/javafx/8"
+      xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="dirButton" layoutX="481.0" layoutY="82.0" mnemonicParsing="false" text="Choose directory" onAction="#dirButtonAction"/>
+
+      <TextArea fx:id="dirBox" layoutX="14.0" layoutY="38.0" prefHeight="44.0" prefWidth="573.0" wrapText="true"/>
+
+      <Button fx:id="removeConflictButton" layoutX="14.0" layoutY="136.0" mnemonicParsing="false" text="Remove all conflict files" onAction="#removeConflictButtonAction"/>
+
+      <Button fx:id="renameButton" layoutX="13.0" layoutY="181.0" mnemonicParsing="false" text="Rename all to lowercase" onAction="#renameButtonAction"/>
+
+      <Text layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select the folder which contains the AKB modpack">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+
+      <ProgressBar fx:id="progressBar" layoutX="13.0" layoutY="218.0" prefWidth="200.0" progress="0.0" />
+
+      <TextArea fx:id="outputBox" layoutX="255.0" layoutY="126.0" prefHeight="110.0" prefWidth="331.0" wrapText="true" editable="false" />
+
+      <Button fx:id="clearlogButton" layoutX="255" layoutY="236" mnemonicParsing="false" text="Clear log" onAction="#clearlogButtonAction"/>
+
+      <Button fx:id="savelogButton" layoutX="526" layoutY="236" mnemonicParsing="false" text="Save log" onAction="#savelogButtonAction"/>
+
+   </children>
+</Pane>

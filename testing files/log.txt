@@ -1,0 +1,2 @@
+Rename Conflict button pressed 
+C:\Java projects\conflict test\backup\test2.conflict\filetest.conflictC:\Java projects\conflict test\filetest.conflictC:\Java projects\conflict test\log.txtC:\Java projects\conflict test\testing\test2.conflict\filetest.conflictLog saved 
